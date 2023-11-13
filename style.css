@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(0, 224, 253);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* la caja que contiene a cada input */
+.contenedor{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fdb416;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+/* titulo */
+h1 {
+    color: #0e0101;
+}
+/* cada input */
+.input-container {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* el tipo de input e este caso numero */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f18787;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* buton  de calcular*/
+button{
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultado{
+    margin-top: 20px;
+    font-weight: bold;
+}
